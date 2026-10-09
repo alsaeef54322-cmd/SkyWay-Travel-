@@ -1,0 +1,8 @@
+{
+  "name": "SkyWay Travel | سكاي واي للسفريات",
+  "description": "Enterprise Travel Agency Management System for customers, bookings, visas, passports, flights, finance, reports, and document management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
