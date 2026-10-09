@@ -21,7 +21,7 @@
         "canViewAuditLogs": true
       },
       "createdAt": "2026-01-15T08:00:00Z",
-      "lastLogin": "2026-10-09T21:56:56.898Z"
+      "lastLogin": "2026-10-09T22:56:54.256Z"
     },
     {
       "id": "USR-102",
@@ -945,6 +945,36 @@
     }
   ],
   "auditLogs": [
+    {
+      "id": "LOG-1791586646222-42",
+      "userId": "USR-101",
+      "userName": "Tariq Al-Mansoor",
+      "action": "export",
+      "entity": "bookings",
+      "entityId": "EXPORT-bookings",
+      "details": "Exported bookings to Excel",
+      "createdAt": "2026-10-09T22:57:26.222Z"
+    },
+    {
+      "id": "LOG-1791586614258-452",
+      "userId": "USR-101",
+      "userName": "Tariq Al-Mansoor",
+      "action": "login",
+      "entity": "user",
+      "entityId": "USR-101",
+      "details": "User logged in from 127.0.0.1",
+      "createdAt": "2026-10-09T22:56:54.258Z"
+    },
+    {
+      "id": "LOG-1791586611701-629",
+      "userId": "USR-101",
+      "userName": "Tariq Al-Mansoor",
+      "action": "logout",
+      "entity": "user",
+      "entityId": "USR-101",
+      "details": "User logged out",
+      "createdAt": "2026-10-09T22:56:51.701Z"
+    },
     {
       "id": "LOG-1791583016917-811",
       "userId": "USR-101",
