@@ -4,7 +4,7 @@
       "id": "USR-101",
       "name": "Tariq Al-Mansoor",
       "email": "admin@skyway.com",
-      "passwordHash": "$2b$10$dCmewtdh8GaG2NU74aTB8.b1IzlOj58fY3ujH7If5ep9eaLxf3GOS",
+      "passwordHash": "$2b$10$.nK/NbLpD.TJhczSKL4mGOeni7ihY3Cc3Lwe8t0XR6Qfou9R5/tvm",
       "role": "admin",
       "phone": "+966 50 111 2233",
       "status": "active",
@@ -21,13 +21,13 @@
         "canViewAuditLogs": true
       },
       "createdAt": "2026-01-15T08:00:00Z",
-      "lastLogin": "2026-10-10T12:00:06.182Z"
+      "lastLogin": "2026-10-09T04:17:51.104Z"
     },
     {
       "id": "USR-102",
       "name": "Sarah Jenkins",
       "email": "sarah.ops@skyway.com",
-      "passwordHash": "$2b$10$dCmewtdh8GaG2NU74aTB8.b1IzlOj58fY3ujH7If5ep9eaLxf3GOS",
+      "passwordHash": "$2b$10$.nK/NbLpD.TJhczSKL4mGOeni7ihY3Cc3Lwe8t0XR6Qfou9R5/tvm",
       "role": "manager",
       "phone": "+966 50 222 3344",
       "status": "active",
@@ -50,7 +50,7 @@
       "id": "USR-103",
       "name": "Omar Farooq",
       "email": "omar.accounts@skyway.com",
-      "passwordHash": "$2b$10$dCmewtdh8GaG2NU74aTB8.b1IzlOj58fY3ujH7If5ep9eaLxf3GOS",
+      "passwordHash": "$2b$10$.nK/NbLpD.TJhczSKL4mGOeni7ihY3Cc3Lwe8t0XR6Qfou9R5/tvm",
       "role": "accountant",
       "phone": "+966 50 333 4455",
       "status": "active",
@@ -73,7 +73,7 @@
       "id": "USR-104",
       "name": "Layla Al-Harbi",
       "email": "layla.agent@skyway.com",
-      "passwordHash": "$2b$10$dCmewtdh8GaG2NU74aTB8.b1IzlOj58fY3ujH7If5ep9eaLxf3GOS",
+      "passwordHash": "$2b$10$.nK/NbLpD.TJhczSKL4mGOeni7ihY3Cc3Lwe8t0XR6Qfou9R5/tvm",
       "role": "employee",
       "phone": "+966 50 444 5566",
       "status": "active",
@@ -838,16 +838,42 @@
   ],
   "documents": [
     {
-      "id": "DOC-1501",
-      "customerId": "CUST-1004",
-      "title": "ايصال من شركه",
-      "documentType": "receipt",
-      "fileName": "doc_1791627180299_1593.xlsx",
-      "fileSize": 7033,
-      "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-      "filePath": "/uploads/doc_1791662941491_4624.xlsx",
-      "uploadedById": "USR-101",
-      "createdAt": "2026-10-10T20:09:01.501Z"
+      "id": "DOC-1001",
+      "customerId": "CUST-1001",
+      "bookingId": "BK-2026-001",
+      "title": "تذكرة سفر إلكترونية - لندن (E-Ticket London LHR)",
+      "documentType": "ticket",
+      "fileName": "eticket_sv_115_london.pdf",
+      "fileSize": 428000,
+      "mimeType": "application/pdf",
+      "filePath": "/uploads/sample_eticket_london.pdf",
+      "uploadedById": "USR-102",
+      "createdAt": "2026-09-22T13:00:00Z"
+    },
+    {
+      "id": "DOC-1002",
+      "customerId": "CUST-1001",
+      "title": "صورة جواز السفر المعتمدة",
+      "documentType": "passport_scan",
+      "fileName": "passport_scan_alsalem.jpg",
+      "fileSize": 852000,
+      "mimeType": "image/jpeg",
+      "filePath": "/uploads/sample_passport_scan.jpg",
+      "uploadedById": "USR-102",
+      "createdAt": "2026-03-01T10:30:00Z"
+    },
+    {
+      "id": "DOC-1003",
+      "customerId": "CUST-1002",
+      "bookingId": "BK-2026-002",
+      "title": "قسيمة الفندق - سويسرا (Hotel Voucher Victoria-Jungfrau)",
+      "documentType": "voucher",
+      "fileName": "hotel_voucher_switzerland.pdf",
+      "fileSize": 312000,
+      "mimeType": "application/pdf",
+      "filePath": "/uploads/sample_voucher_swiss.pdf",
+      "uploadedById": "USR-104",
+      "createdAt": "2026-09-28T12:00:00Z"
     }
   ],
   "notifications": [
@@ -859,8 +885,8 @@
       "messageAr": "موعد بصمة تأشيرة France للمسافر Mona Ibrahim Al-Dossary (VSA-FR-9821) خلال 6 أيام.",
       "messageEn": "Visa appointment for Mona Ibrahim Al-Dossary (France) is in 6 days.",
       "targetUrl": "/visas",
-      "isRead": true,
-      "createdAt": "2026-10-09T05:21:39.816Z"
+      "isRead": false,
+      "createdAt": "2026-10-09T23:49:24.465Z"
     },
     {
       "id": "NOTIF-PASS-PASS-1005",
@@ -870,8 +896,8 @@
       "messageAr": "جواز سفر العميل د. زياد طارق النجار (E9018234) منتهي الصلاحية، مطلوب التجديد الفوري.",
       "messageEn": "Customer passport E9018234 expires in -181 days.",
       "targetUrl": "/passports",
-      "isRead": true,
-      "createdAt": "2026-10-09T05:21:39.816Z"
+      "isRead": false,
+      "createdAt": "2026-10-09T23:49:24.465Z"
     },
     {
       "id": "NOTIF-PASS-PASS-1002",
@@ -881,8 +907,8 @@
       "messageAr": "جواز سفر العميل فاطمة سلطان القحطاني (G9812401) ينتهي خلال 67 يوم فقط.",
       "messageEn": "Customer passport G9812401 expires in 67 days.",
       "targetUrl": "/passports",
-      "isRead": true,
-      "createdAt": "2026-10-09T05:21:39.816Z"
+      "isRead": false,
+      "createdAt": "2026-10-09T23:49:24.465Z"
     },
     {
       "id": "NOTIF-101",
@@ -892,7 +918,7 @@
       "messageAr": "جواز سفر العميل فاطمة سلطان القحطاني (G9812401) ينتهي خلال 60 يوماً.",
       "messageEn": "Customer Fatima Al-Qahtani passport (G9812401) expires within 60 days.",
       "targetUrl": "/passports",
-      "isRead": true,
+      "isRead": false,
       "createdAt": "2026-10-07T08:00:00Z"
     },
     {
@@ -903,7 +929,7 @@
       "messageAr": "رحلة العميل عبدالرحمن السالم إلى لندن (SKW-2026-1088) تنطلق خلال 10 أيام.",
       "messageEn": "Customer Abdulrahman Al-Salem flight to London departs in 10 days.",
       "targetUrl": "/bookings/BK-2026-001",
-      "isRead": true,
+      "isRead": false,
       "createdAt": "2026-10-08T09:00:00Z"
     },
     {
@@ -914,310 +940,30 @@
       "messageAr": "يوجد رصيد متبقي بقيمة 3,400 USD على حجز سويسرا (SKW-2026-1092).",
       "messageEn": "Outstanding balance of 3,400 USD on Switzerland booking (SKW-2026-1092).",
       "targetUrl": "/payments",
-      "isRead": true,
+      "isRead": false,
       "createdAt": "2026-10-08T11:00:00Z"
     }
   ],
   "auditLogs": [
     {
-      "id": "LOG-1791662941502-642",
+      "id": "LOG-1791589776575-290",
       "userId": "USR-101",
       "userName": "Tariq Al-Mansoor",
-      "action": "create",
-      "entity": "document",
-      "entityId": "DOC-1501",
-      "details": "Uploaded document ايصال من شركه for customer CUST-1004",
-      "createdAt": "2026-10-10T20:09:01.502Z"
-    },
-    {
-      "id": "LOG-1791662892962-215",
-      "userId": "USR-101",
-      "userName": "Tariq Al-Mansoor",
-      "action": "delete",
-      "entity": "document",
-      "entityId": "DOC-1003",
-      "details": "Deleted document قسيمة الفندق - سويسرا (Hotel Voucher Victoria-Jungfrau)",
-      "createdAt": "2026-10-10T20:08:12.962Z"
-    },
-    {
-      "id": "LOG-1791662886342-804",
-      "userId": "USR-101",
-      "userName": "Tariq Al-Mansoor",
-      "action": "delete",
-      "entity": "document",
-      "entityId": "DOC-1002",
-      "details": "Deleted document صورة جواز السفر المعتمدة",
-      "createdAt": "2026-10-10T20:08:06.342Z"
-    },
-    {
-      "id": "LOG-1791662883572-492",
-      "userId": "USR-101",
-      "userName": "Tariq Al-Mansoor",
-      "action": "delete",
-      "entity": "document",
-      "entityId": "DOC-1001",
-      "details": "Deleted document تذكرة سفر إلكترونية - لندن (E-Ticket London LHR)",
-      "createdAt": "2026-10-10T20:08:03.572Z"
-    },
-    {
-      "id": "LOG-1791633606184-628",
-      "userId": "USR-101",
-      "userName": "Tariq Al-Mansoor",
-      "action": "login",
-      "entity": "user",
-      "entityId": "USR-101",
-      "details": "User logged in from 127.0.0.1",
-      "createdAt": "2026-10-10T12:00:06.184Z"
-    },
-    {
-      "id": "LOG-1791586646222-42",
-      "userId": "USR-101",
-      "userName": "Tariq Al-Mansoor",
-      "action": "export",
-      "entity": "bookings",
-      "entityId": "EXPORT-bookings",
-      "details": "Exported bookings to Excel",
-      "createdAt": "2026-10-09T22:57:26.222Z"
-    },
-    {
-      "id": "LOG-1791586614258-452",
-      "userId": "USR-101",
-      "userName": "Tariq Al-Mansoor",
-      "action": "login",
-      "entity": "user",
-      "entityId": "USR-101",
-      "details": "User logged in from 127.0.0.1",
-      "createdAt": "2026-10-09T22:56:54.258Z"
-    },
-    {
-      "id": "LOG-1791586611701-629",
-      "userId": "USR-101",
-      "userName": "Tariq Al-Mansoor",
-      "action": "logout",
-      "entity": "user",
-      "entityId": "USR-101",
-      "details": "User logged out",
-      "createdAt": "2026-10-09T22:56:51.701Z"
-    },
-    {
-      "id": "LOG-1791583016917-811",
-      "userId": "USR-101",
-      "userName": "Tariq Al-Mansoor",
-      "action": "update",
+      "action": "backup",
       "entity": "setting",
-      "entityId": "SYSTEM",
-      "details": "Updated company settings: سكاي واي للسفريات - مصر",
-      "createdAt": "2026-10-09T21:56:56.917Z"
+      "entityId": "skyway_backup_2026-10-09T23-49-36-574Z.json",
+      "details": "Created system backup: skyway_backup_2026-10-09T23-49-36-574Z.json",
+      "createdAt": "2026-10-09T23:49:36.575Z"
     },
     {
-      "id": "LOG-1791583016899-945",
+      "id": "LOG-1791589763256-947",
       "userId": "USR-101",
       "userName": "Tariq Al-Mansoor",
-      "action": "login",
-      "entity": "user",
-      "entityId": "USR-101",
-      "details": "User logged in from 127.0.0.1",
-      "createdAt": "2026-10-09T21:56:56.899Z"
-    },
-    {
-      "id": "LOG-1791583012204-178",
-      "userId": "USR-101",
-      "userName": "Tariq Al-Mansoor",
-      "action": "login",
-      "entity": "user",
-      "entityId": "USR-101",
-      "details": "User logged in from 127.0.0.1",
-      "createdAt": "2026-10-09T21:56:52.204Z"
-    },
-    {
-      "id": "LOG-1791554423835-100",
-      "userId": "USR-101",
-      "userName": "Tariq Al-Mansoor",
-      "action": "login",
-      "entity": "user",
-      "entityId": "USR-101",
-      "details": "User logged in from 127.0.0.1",
-      "createdAt": "2026-10-09T14:00:23.835Z"
-    },
-    {
-      "id": "LOG-1791547117907-276",
-      "userId": "USR-101",
-      "userName": "Tariq Al-Mansoor",
-      "action": "update",
+      "action": "restore",
       "entity": "setting",
-      "entityId": "SYSTEM",
-      "details": "Updated system settings",
-      "createdAt": "2026-10-09T11:58:37.907Z"
-    },
-    {
-      "id": "LOG-1791547016351-480",
-      "userId": "USR-101",
-      "userName": "Tariq Al-Mansoor",
-      "action": "update",
-      "entity": "setting",
-      "entityId": "SYSTEM",
-      "details": "Updated system settings",
-      "createdAt": "2026-10-09T11:56:56.351Z"
-    },
-    {
-      "id": "LOG-1791546913762-572",
-      "userId": "USR-101",
-      "userName": "Tariq Al-Mansoor",
-      "action": "export",
-      "entity": "passports",
-      "entityId": "EXPORT-passports",
-      "details": "Exported passports to Excel",
-      "createdAt": "2026-10-09T11:55:13.762Z"
-    },
-    {
-      "id": "LOG-1791546873641-427",
-      "userId": "USR-101",
-      "userName": "Tariq Al-Mansoor",
-      "action": "login",
-      "entity": "user",
-      "entityId": "USR-101",
-      "details": "User logged in from 127.0.0.1",
-      "createdAt": "2026-10-09T11:54:33.641Z"
-    },
-    {
-      "id": "LOG-1791546870774-996",
-      "userId": "USR-101",
-      "userName": "Tariq Al-Mansoor",
-      "action": "logout",
-      "entity": "user",
-      "entityId": "USR-101",
-      "details": "User logged out",
-      "createdAt": "2026-10-09T11:54:30.775Z"
-    },
-    {
-      "id": "LOG-1791543731891-781",
-      "userId": "USR-101",
-      "userName": "Tariq Al-Mansoor",
-      "action": "export",
-      "entity": "customers",
-      "entityId": "EXPORT-customers",
-      "details": "Exported customers to Excel",
-      "createdAt": "2026-10-09T11:02:11.891Z"
-    },
-    {
-      "id": "LOG-1791543692874-802",
-      "userId": "USR-101",
-      "userName": "Tariq Al-Mansoor",
-      "action": "login",
-      "entity": "user",
-      "entityId": "USR-101",
-      "details": "User logged in from 127.0.0.1",
-      "createdAt": "2026-10-09T11:01:32.874Z"
-    },
-    {
-      "id": "LOG-1791543684549-414",
-      "userId": "USR-101",
-      "userName": "Tariq Al-Mansoor",
-      "action": "logout",
-      "entity": "user",
-      "entityId": "USR-101",
-      "details": "User logged out",
-      "createdAt": "2026-10-09T11:01:24.549Z"
-    },
-    {
-      "id": "LOG-1791543239740-824",
-      "userId": "USR-101",
-      "userName": "Tariq Al-Mansoor",
-      "action": "export",
-      "entity": "passports",
-      "entityId": "EXPORT-passports",
-      "details": "Exported passports to Excel",
-      "createdAt": "2026-10-09T10:53:59.740Z"
-    },
-    {
-      "id": "LOG-1791525641154-109",
-      "userId": "USR-101",
-      "userName": "Tariq Al-Mansoor",
-      "action": "login",
-      "entity": "user",
-      "entityId": "USR-101",
-      "details": "User logged in from 127.0.0.1",
-      "createdAt": "2026-10-09T06:00:41.154Z"
-    },
-    {
-      "id": "LOG-1791525180434-184",
-      "userId": "USR-101",
-      "userName": "Tariq Al-Mansoor",
-      "action": "logout",
-      "entity": "user",
-      "entityId": "USR-101",
-      "details": "User logged out",
-      "createdAt": "2026-10-09T05:53:00.434Z"
-    },
-    {
-      "id": "LOG-1791525176917-811",
-      "userId": "USR-101",
-      "userName": "Tariq Al-Mansoor",
-      "action": "login",
-      "entity": "user",
-      "entityId": "USR-101",
-      "details": "User logged in from 127.0.0.1",
-      "createdAt": "2026-10-09T05:52:56.917Z"
-    },
-    {
-      "id": "LOG-1791525168004-200",
-      "userId": "USR-101",
-      "userName": "Tariq Al-Mansoor",
-      "action": "logout",
-      "entity": "user",
-      "entityId": "USR-101",
-      "details": "User logged out",
-      "createdAt": "2026-10-09T05:52:48.006Z"
-    },
-    {
-      "id": "LOG-1791523980779-497",
-      "userId": "USR-101",
-      "userName": "Tariq Al-Mansoor",
-      "action": "export",
-      "entity": "passports",
-      "entityId": "EXPORT-passports",
-      "details": "Exported passports to Excel",
-      "createdAt": "2026-10-09T05:33:00.779Z"
-    },
-    {
-      "id": "LOG-1791523907446-69",
-      "userId": "USR-101",
-      "userName": "Tariq Al-Mansoor",
-      "action": "login",
-      "entity": "user",
-      "entityId": "USR-101",
-      "details": "User logged in from 127.0.0.1",
-      "createdAt": "2026-10-09T05:31:47.446Z"
-    },
-    {
-      "id": "LOG-1791523896348-499",
-      "userId": "USR-101",
-      "userName": "Tariq Al-Mansoor",
-      "action": "logout",
-      "entity": "user",
-      "entityId": "USR-101",
-      "details": "User logged out",
-      "createdAt": "2026-10-09T05:31:36.348Z"
-    },
-    {
-      "id": "LOG-1791523321382-157",
-      "userId": "USR-101",
-      "userName": "Tariq Al-Mansoor",
-      "action": "export",
-      "entity": "payments",
-      "entityId": "EXPORT-payments",
-      "details": "Exported payments to Excel",
-      "createdAt": "2026-10-09T05:22:01.382Z"
-    },
-    {
-      "id": "LOG-1791523299657-757",
-      "userId": "USR-101",
-      "userName": "Tariq Al-Mansoor",
-      "action": "login",
-      "entity": "user",
-      "entityId": "USR-101",
-      "details": "User logged in from 127.0.0.1",
-      "createdAt": "2026-10-09T05:21:39.657Z"
+      "entityId": "DB_RESTORE",
+      "details": "Restored system database from backup",
+      "createdAt": "2026-10-09T23:49:23.256Z"
     },
     {
       "id": "LOG-1001",
@@ -1254,26 +1000,25 @@
     }
   ],
   "settings": {
-    "companyNameAr": "سكاي واي للسفريات - مصر",
-    "companyNameEn": "SkyWay Travel Egypt",
-    "commercialReg": "س.ت: 10492850 - القاهرة",
-    "iataCode": "IATA-96248-EG",
-    "phone": "+20 2 2450 8899 / +20 100 234 5678",
-    "email": "cairo@skyway-travel.com",
-    "addressAr": "18 شارع الطيران، مدينة نصر، القاهرة، جمهورية مصر العربية",
-    "addressEn": "18 El-Tayaran St, Nasr City, Cairo, Egypt",
-    "defaultCurrency": "EGP",
+    "companyNameAr": "سكاي واي للسفريات",
+    "companyNameEn": "SkyWay Travel",
+    "commercialReg": "CR-10492850",
+    "iataCode": "IATA-96248",
+    "phone": "+966 11 405 8899",
+    "email": "operations@skyway-travel.com",
+    "addressAr": "برج الأعمال الملكي، طريق الملك فهد، الرياض، المملكة العربية السعودية",
+    "addressEn": "Royal Business Tower, King Fahd Rd, Riyadh, Saudi Arabia",
+    "defaultCurrency": "USD",
     "currencies": [
-      "EGP",
       "USD",
-      "EUR",
       "SAR",
-      "AED"
+      "AED",
+      "EUR",
+      "KWD"
     ],
     "passportWarningDays": 180,
     "bookingRefPrefix": "SKW",
-    "invoiceFooterAr": "شكراً لتعاملكم مع سكاي واي للسفريات بمصر - نتمنى لكم رحلة ممتعة وآمنة يا فندم",
-    "invoiceFooterEn": "Thank you for choosing SkyWay Travel Egypt - Wishing you a pleasant journey",
-    "logoUrl": ""
+    "invoiceFooterAr": "شكراً لاختياركم سكاي واي للسفريات - نتمنى لكم رحلة سعيدة وآمنة",
+    "invoiceFooterEn": "Thank you for choosing SkyWay Travel - Wishing you a pleasant journey"
   }
 }
